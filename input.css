@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'DodoRounded';
+    src: url('fonts/fonts/dodorounded-regular.woff2') format('woff2'),
+         url('fonts/fonts/dodorounded-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+};
+
+@media (min-width:768px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1920px;
+    }
+}
