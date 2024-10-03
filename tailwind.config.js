@@ -11,11 +11,11 @@ module.exports = {
         '1280' : '80rem'
       },
       colors: {
-        mainColor: '#050c2a',
         headerHover: 'rgb(255,105,0)',
         textColor: 'rgb(255,105,0)',
         hColor: 'rgb(236, 94, 36)',
-        bgColor: 'rgb(253, 242, 232)'
+        bgColor: 'rgb(253, 242, 232)',
+        footerColor: 'rgb(255,105,0)'
       },
       spacing: {
         '415px': '415px',
